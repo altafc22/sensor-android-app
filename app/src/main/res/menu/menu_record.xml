@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context="g7.itsmap.sensor.activity.RecordActivity">
+
+    <item android:id="@+id/action_history"
+        android:icon="@mipmap/history"
+        android:title="History"
+        app:showAsAction="always"
+        android:showAsAction="always" />
+
+    <item android:id="@+id/action_settings"
+        android:icon="@mipmap/settings"
+        android:title="Settings"
+        app:showAsAction="always"
+        android:showAsAction="always" />
+</menu>

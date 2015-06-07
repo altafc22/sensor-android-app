@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="true">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/info_results_text"
+            android:gravity="left"
+            android:id="@+id/textStatus"
+            android:textSize="40dp"
+            android:textStyle="normal"
+            android:textColor="#9B9AA2"
+            android:maxLines="3"
+            android:textAlignment="inherit" />
+
+        <View android:id="@+id/separator"
+            android:background="#9B9AA2"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width = "fill_parent"
+            android:layout_height="0.6dp"
+            android:layout_centerVertical ="true"
+            android:layout_alignParentTop="true"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

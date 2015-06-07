@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="g7.itsmap.sensor" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".activity.RecordActivity"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.HistoryActivity"
+            android:label="@string/title_activity_history" >
+        </activity>
+
+        <service
+            android:name=".service.SensorService"
+            android:exported="false" >
+        </service>
+
+        <activity
+            android:name=".activity.SettingsActivity"
+            android:label="@string/title_activity_settings" >
+        </activity>
+
+        <receiver class="g7.itsmap.sensor.notification.ReminderReceiver"
+            android:name="g7.itsmap.sensor.notification.ReminderReceiver">
+
+        </receiver>
+
+    </application>
+
+</manifest>

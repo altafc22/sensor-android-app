@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Sensor</string>
+    <string name="title_activity_launcher">LauncherActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_record">Record</string>
+    <string name="title_activity_history">History</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="error_title">Error</string>
+    <string name="error_connection_sensor">Unable to communicate with the sensor. \nPlease check your network configuration and make sure the sensor is available.</string>
+    <string name="button_go_waiting">GO</string>
+    <string name="button_go_recording">CANCEL</string>
+    <string name="recorded_values_label_temperature">Temperature</string>
+    <string name="recorded_values_label_humidity">Humidity</string>
+    <string name="recorded_values_both">Both the temperature and humidity are too high</string>
+    <string name="recorded_values_temperature">The temperature is too high</string>
+    <string name="recorded_values_humidity">The humidity is too high</string>
+    <string name="recorded_values_ok">Everything is fine</string>
+    <string name="info_record_text">Tap on go to record the temperature and the humidity of your sensor</string>
+    <string name="info_results_text">Your results</string>
+    <string name="back_button">BACK</string>
+    <string name="error_no_sensor_configuration">Please configure the IP address and port of the sensor</string>
+    <string name="sensor_ip_address">IP address</string>
+    <string name="sensor_port">Port</string>
+    <string name="doctor_max_temp">Maximum temperature</string>
+    <string name="doctor_max_humidity">Maximum humidity</string>
+    <string name="doctor_alert">Alert the doctor</string>
+    <string name="doctor_alert_summary">It alerts the doctor in case of bad results</string>
+    <string name="doctor_email">Email of your doctor</string>
+    <string name="plus_forget_notification">Forget notification</string>
+    <string name="plus_forget_notification_summary">Notification when your forget to check the sensor for 24 hours</string>
+    <string name="message_alarm_reminder">Don\'t forget to check your sensor !</string>
+    <string name="wifi_message">You must connect the device to a wifi network</string>
+
+</resources>

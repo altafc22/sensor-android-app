@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="Sensor">
+
+        <EditTextPreference
+            android:title="@string/sensor_ip_address"
+            android:inputType="phone"
+            android:key="pref_sensor_ip_address">
+        </EditTextPreference>
+
+        <EditTextPreference
+            android:title="@string/sensor_port"
+            android:inputType="number"
+            android:key="pref_sensor_port">
+        </EditTextPreference>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Doctor">
+
+        <EditTextPreference
+            android:title="@string/doctor_max_temp"
+            android:inputType="numberDecimal"
+            android:key="pref_doctor_max_temperature">
+        </EditTextPreference>
+
+        <EditTextPreference
+            android:title="@string/doctor_max_humidity"
+            android:inputType="numberDecimal"
+            android:key="pref_doctor_max_humidity">
+        </EditTextPreference>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Plus">
+
+        <CheckBoxPreference
+            android:key="pref_plus_notification_forgot"
+            android:title="@string/plus_forget_notification"
+            android:summary="@string/plus_forget_notification_summary"
+            android:defaultValue="true">
+        </CheckBoxPreference>
+
+    </PreferenceCategory>
+</PreferenceScreen>

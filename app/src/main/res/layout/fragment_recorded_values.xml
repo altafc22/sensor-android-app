@@ -1,0 +1,97 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="true">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="130dp"
+            android:layout_height="170dp"
+            android:layout_marginRight="30dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text= "@string/recorded_values_label_temperature"
+                android:gravity="center"
+                android:id="@+id/textLabelTemperature"
+                android:textSize="22sp"
+                android:textStyle="normal"
+                android:textColor="#ffffffff" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:layout_marginTop="10dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:background="@drawable/circle_button_blue"
+                android:gravity="center"
+                android:id="@+id/textTemperature"
+                android:textSize="42sp"
+                android:textStyle="bold"
+                android:textColor="#ffffffff" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="130dp"
+            android:layout_height="170dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text= "@string/recorded_values_label_humidity"
+                android:gravity="center"
+                android:id="@+id/textLabelHumidity"
+                android:textSize="22sp"
+                android:textStyle="normal"
+                android:textColor="#ffffffff" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="130dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:background="@drawable/circle_button_blue"
+                android:gravity="center"
+                android:id="@+id/textHumidity"
+                android:textSize="42sp"
+                android:textStyle="bold"
+                android:textColor="#ffffffff" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:gravity="center"
+            android:id="@+id/textStatus"
+            android:textSize="22sp"
+            android:textStyle="normal"
+            android:textColor="#ffffffff"
+            android:maxLines="2"
+            android:minLines="1" />
+
+    </LinearLayout>
+
+</RelativeLayout>
